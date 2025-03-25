@@ -35,7 +35,7 @@ pipeline{
          }
         stage('port expose'){
             steps{
-                sh 'docker run -dt -p 8091:8091 --name c000 bankingimage'
+                sh 'docker run -dt -p 8091:8091 --name c00 bankingimage'
             }
         }   
     }
