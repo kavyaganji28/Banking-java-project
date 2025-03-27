@@ -13,6 +13,6 @@
     command : sudo systemctl start docker
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8086:8091 kavyaganji95/financeme:latest
+    command: docker run -itd -p 8086:8091 kavyaganji95/bankingfinance:latest
 
 
